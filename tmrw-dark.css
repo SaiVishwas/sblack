@@ -1496,3 +1496,8 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .para_menu .options a span { filter: grayscale(2) brightness(5); }
 .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
+body > .status .current_status { background: #000; }
+body > .section.main { background: #222; box-shadow: none; }
+.calendar_incident { border-top: 1px solid #828282; }
+.calendar_day.future { background-color: #828282; }
+.incident_update .time { color: #e6e6e6; }
